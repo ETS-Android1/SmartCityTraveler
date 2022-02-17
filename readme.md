@@ -36,3 +36,19 @@ A simple call to the api can be made by: https://api.foursquare.com/v3/places/se
 A simple call(address->coordinates) to the api can be made by: https://app.geocodeapi.io/api/v1/search?apikey=[api_key]&text=[xxx_address].
 
 *	_GoogleMaps API:_ Used to display the google map into the view. This API is not explicitly used. It is used internally by the GoogleMaps Activity. The API automatically handles access to Google Maps servers, data downloading, map display, and response to map gestures. You can also use API calls to add markers, polygons, and overlays to a basic map. No need to call this API explicitly.
+
+### **Project Requirements:-**
+
+*	_Language:_ Java and XML
+*	_Gradle Version:_ 7.2
+*	_Gradle Plugin Version:_ 7.1.1
+*	_Gradle JDK Version:_ 11.0.11
+*	_Compile SDK Version:_ API-31 (Android 12.0 (S))
+
+### **Note:-**
+
+*   To make use of FusedLocationProvider client for automatic detection of location, add the google play dependency to build.gradle file. Add this line to dependencies {...} section: implementation 'com.google.android.gms:play-services-location:19.0.1'
+
+*   If you want to run this project, create API keys on - Foursquare, GeocodeApi and GoogleMaps and then create an xml file by the name - "google_maps_api.xml". Enter all the new API keys in this file as string resources. Make sure to use keys as: "google_maps_key", "geocodeApiKey" and "foursquareApiKey1" as the keys and their respective values in the normal form.
+
+*   Note that gradle and other dependencies will be updated as time goes by.
