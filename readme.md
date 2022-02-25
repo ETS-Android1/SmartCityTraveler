@@ -1,9 +1,9 @@
-**Smart City Traveller**
+**Smart City Traveler**
 ====================
 
 ### **About Project**
 
-*	Smart City Traveller is an Android Application, that recommends places and venues that can be visited by a user travelling a city. The user will be given 2 options in the starting, for location tracking. If the user wants their location to be tracked automatically, they can press the "Detect My Location" button, else they can press the enter location manually and enter the location where they want to find the venues.<br />
+*	Smart City Traveler is an Android Application, that recommends places and venues that can be visited by a user travelling a city. The user will be given 2 options in the starting, for location tracking. If the user wants their location to be tracked automatically, they can press the "Detect My Location" button, else they can press the enter location manually and enter the location where they want to find the venues.<br />
 	<img src="one.jpg" style="height: 15%; width: 30%"><br />
 
 *	As soon as one of these buttons are pressed, the geographical coordinates of the place are extracted and the user is directed to the next screen. Here, the user has to select their interests, i.e., what type of venue the user wants to visit. It should be noted that at max 3 and at min 1 interest should be selected at a time. The range in which venues are selected can also be changed by the seek-bar provided at the right side (10km default).<br />
