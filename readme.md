@@ -4,19 +4,19 @@
 ### **About Project**
 
 *	Smart City Traveler is an Android Application, that recommends places and venues that can be visited by a user travelling a city. The user will be given 2 options in the starting, for location tracking. If the user wants their location to be tracked automatically, they can press the "Detect My Location" button, else they can press the enter location manually and enter the location where they want to find the venues.<br />
-	<img src="one.jpg" style="height: 15%; width: 30%"><br />
+	<img src="images/one.jpg" style="height: 15%; width: 30%"><br />
 
 *	As soon as one of these buttons are pressed, the geographical coordinates of the place are extracted and the user is directed to the next screen. Here, the user has to select their interests, i.e., what type of venue the user wants to visit. It should be noted that at max 3 and at min 1 interest should be selected at a time. The range in which venues are selected can also be changed by the seek-bar provided at the right side (10km default).<br />
-	<img src="two.jpg" style="height: 15%; width: 30%"><br />
+	<img src="images/two.jpg" style="height: 15%; width: 30%"><br />
 
 *	When the interests are selected, the places/venues are shown one by one in the form of a list, implemented with a Recycler View. Each list contains the places that the user can select by clicking on it. When the first interest is selected, then the next list of venues is shown and the user has to select from that list and so on.When the final venue is selected, all the venues are shown on the Google Maps, along with the current position and the user can travel to any venue.<br />
-	<img src="three.jpg" style="height: 15%; width: 30%">
-	<img src="four.jpg" style="height: 15%; width: 30%">
-	<img src="five.jpg" style="height: 15%; width: 30%"><br />
+	<img src="images/three.jpg" style="height: 15%; width: 30%">
+	<img src="images/four.jpg" style="height: 15%; width: 30%">
+	<img src="images/five.jpg" style="height: 15%; width: 30%"><br />
 
 *	This is the final screen. This screen shows the google map, which includes current position and all the venues that were selected. The blue blip denotes current position, the red blips denote the destinations, in the form they were selected. The indexes of the locations can be seen when the blips are pressed.<br />
-	<img src="six.jpg" style="height: 15%; width: 30%">
-	<img src="seven.jpg" style="height: 15%; width: 30%"><br />
+	<img src="images/six.jpg" style="height: 15%; width: 30%">
+	<img src="images/seven.jpg" style="height: 15%; width: 30%"><br />
 
 
 ### **Tools Used:-**
